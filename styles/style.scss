@@ -91,14 +91,14 @@ body {
       font-size: 16px;
       width: 325px;
       margin-bottom: 50px;
+      word-break: break-word;
+      hyphens: auto;
     }
     background-color: #c9c8c3;
     .wrapper {
       width: 375px;
       overflow-x: hidden !important;
       display: block;
-      word-break: break-word;
-      hyphens: auto;
 
       .credits {
         font-family: "CoFo_Sans-Regular";
@@ -250,6 +250,8 @@ body {
                 line-height: 133%;
                 margin-bottom: 25px;
                 text-transform: none;
+                word-break: break-word;
+                hyphens: auto;
                 p {
                   text-transform: uppercase;
                 }

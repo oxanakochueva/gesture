@@ -88,13 +88,13 @@ body .desktop .qr {
     font-size: 16px;
     width: 325px;
     margin-bottom: 50px;
+    word-break: break-word;
+    hyphens: auto;
   }
   body .wrapper {
     width: 375px;
     overflow-x: hidden !important;
     display: block;
-    word-break: break-word;
-    hyphens: auto;
   }
   body .wrapper .credits {
     font-family: "CoFo_Sans-Regular";
@@ -237,6 +237,8 @@ body .desktop .qr {
     line-height: 133%;
     margin-bottom: 25px;
     text-transform: none;
+    word-break: break-word;
+    hyphens: auto;
   }
   body .wrapper .firstBlock .info .afisha .block .caps p {
     text-transform: uppercase;
