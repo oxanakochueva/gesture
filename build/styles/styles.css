@@ -1,0 +1,252 @@
+body {
+  background-color: #c9c8c3;
+}
+body .wrapper {
+  display: none;
+}
+body .desktop {
+  width: 50vw;
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+body .desktop .block {
+  position: absolute;
+  z-index: -1;
+  width: 80vw;
+  height: 90vh;
+  top: 5vh;
+  left: 10vw;
+  -webkit-box-shadow: 0px 3px 20px -10px rgba(33, 30, 30, 0.51);
+  -moz-box-shadow: 0px 3px 20px -10px rgba(33, 30, 30, 0.51);
+  box-shadow: 0px 3px 20px -10px rgba(33, 30, 30, 0.51);
+}
+body .desktop .header {
+  font-family: "CoFo_Sans-Regular";
+  font-size: 100px;
+  line-height: 90px;
+  text-transform: uppercase;
+  width: 62%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+body .desktop .header .headerText.center {
+  text-align: center;
+}
+body .desktop .header .headerText.left {
+  text-align: left;
+}
+body .desktop .header .headerText.right {
+  text-align: right;
+}
+body .desktop .caps {
+  width: 50%;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+body .desktop .caps.left {
+  text-align: left;
+}
+body .desktop .caps.right {
+  position: relative;
+  left: 360px;
+}
+body .desktop .sorry {
+  font-family: "CoFo_Sans-Regular";
+  font-size: 17px;
+  margin-bottom: 50px;
+  padding: 10px;
+  border: 1px solid #211e1e;
+  text-align: center;
+}
+body .desktop .qr {
+  width: 50px;
+  height: 50px;
+  color: grey;
+}
+
+@media (max-width: 767px) {
+  html {
+    max-width: 767px;
+  }
+
+  body {
+    color: #211e1e;
+    background-color: #c9c8c3;
+  }
+  body .desktop {
+    display: none;
+  }
+  body .caps {
+    font-family: "TT-Nooks-Light";
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .description {
+    font-family: "CoFo_Sans-Regular";
+    font-size: 16px;
+    width: 325px;
+    margin-bottom: 50px;
+  }
+  body .wrapper {
+    width: 375px;
+    overflow-x: hidden !important;
+    display: block;
+  }
+  body .wrapper .credits {
+    font-family: "CoFo_Sans-Regular";
+    font-size: 14px;
+    color: #9d9595;
+    text-decoration: none;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  body .wrapper .credits a {
+    color: #211e1e;
+  }
+  body .wrapper .firstBlock {
+    width: 325px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body .wrapper .firstBlock .cover {
+    height: 560px;
+  }
+  body .wrapper .firstBlock .cover .coverImage {
+    background: url("../../items/images/back.png");
+    background-size: contain;
+    mix-blend-mode: multiply;
+    width: 375px;
+    height: 432px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 125px;
+    z-index: -1;
+  }
+  body .wrapper .firstBlock .cover .header {
+    font-family: "CoFo_Sans-Regular";
+    font-size: 73px;
+    line-height: 68px;
+    text-transform: uppercase;
+  }
+  body .wrapper .firstBlock .cover .header .headerText.center {
+    text-align: center;
+  }
+  body .wrapper .firstBlock .cover .header .headerText.left {
+    text-align: left;
+  }
+  body .wrapper .firstBlock .cover .header .headerText.right {
+    text-align: right;
+  }
+  body .wrapper .firstBlock .cover .caps {
+    width: 80%;
+  }
+  body .wrapper .firstBlock .cover .caps.left {
+    text-align: left;
+  }
+  body .wrapper .firstBlock .cover .caps.right {
+    position: relative;
+    left: 100px;
+    margin-top: 5px;
+  }
+  body .wrapper .firstBlock .info .caps {
+    font-size: 12px;
+    line-height: 133%;
+    margin-bottom: 25px;
+    width: 50%;
+  }
+  body .wrapper .firstBlock .info .people {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 325px;
+  }
+  body .wrapper .firstBlock .info .people .leftBlock {
+    width: 45%;
+  }
+  body .wrapper .firstBlock .info .people .rightBlock {
+    width: 45%;
+  }
+  body .wrapper .firstBlock .info .imagePromo {
+    background: url("../../items/images/IMG_3125.png");
+    background-size: cover;
+    width: 325px;
+    height: 185px;
+    margin-bottom: 25px;
+  }
+  body .wrapper .firstBlock .info .afisha {
+    position: relative;
+    left: -25px;
+    top: 25px;
+  }
+  body .wrapper .firstBlock .info .afisha .block {
+    margin-bottom: 25px;
+    width: 325px;
+    padding: 25px;
+    /* height: 100px; */
+    -webkit-box-shadow: 0px 3px 20px -10px rgba(33, 30, 30, 0.51);
+    -moz-box-shadow: 0px 3px 20px -10px rgba(33, 30, 30, 0.51);
+    box-shadow: 0px 3px 20px -10px rgba(33, 30, 30, 0.51);
+  }
+  body .wrapper .firstBlock .info .afisha .block .image {
+    background: url("../../items/images/IMG_3125.png");
+    background-size: cover;
+    width: 325px;
+    height: 185px;
+    margin-bottom: 25px;
+  }
+  body .wrapper .firstBlock .info .afisha .block.closed {
+    display: none;
+  }
+  body .wrapper .firstBlock .info .afisha .block .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  body .wrapper .firstBlock .info .afisha .block .info .header .headerText {
+    font-family: "CoFo_Sans-Regular";
+    font-size: 30px;
+    line-height: 25px;
+    text-transform: uppercase;
+  }
+  body .wrapper .firstBlock .info .afisha .block .info .header .headerText.center {
+    text-align: center;
+  }
+  body .wrapper .firstBlock .info .afisha .block .info .header .headerText.left {
+    text-align: left;
+  }
+  body .wrapper .firstBlock .info .afisha .block .info .header .headerText.right {
+    text-align: right;
+  }
+  body .wrapper .firstBlock .info .afisha .block .info .caps {
+    width: 45%;
+  }
+  body .wrapper .firstBlock .info .afisha .block .caps {
+    width: 180px;
+    font-size: 12px;
+    line-height: 133%;
+    margin-bottom: 25px;
+    text-transform: none;
+  }
+  body .wrapper .firstBlock .info .afisha .block .caps p {
+    text-transform: uppercase;
+  }
+  body .wrapper .firstBlock .info .block.budem .caps {
+    text-transform: uppercase;
+  }
+  body .wrapper .firstBlock .info .nalevo .headerText.center {
+    width: 77%;
+  }
+  body .wrapper .firstBlock .info .nalevo .headerText.right {
+    width: 87%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
