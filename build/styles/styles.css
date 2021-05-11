@@ -122,7 +122,6 @@ body .desktop .credits a {
     color: #9d9595;
   }
   body .wrapper .firstBlock {
-    width: 325px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -132,6 +131,8 @@ body .desktop .credits a {
   }
   body .wrapper .firstBlock .cover {
     height: 560px;
+    margin: 0 auto;
+    width: 325px;
   }
   body .wrapper .firstBlock .cover .coverImage {
     background: url("../../items/images/back.png");
@@ -182,6 +183,7 @@ body .desktop .credits a {
     flex-direction: row;
     justify-content: space-between;
     width: 325px;
+    margin: 0 auto;
   }
   body .wrapper .firstBlock .info .people .leftBlock {
     width: 45%;
@@ -195,10 +197,11 @@ body .desktop .credits a {
     width: 325px;
     height: 185px;
     margin-bottom: 25px;
+    margin: 0 auto;
   }
   body .wrapper .firstBlock .info .afisha {
     position: relative;
-    left: -25px;
+    margin: 0 auto;
     top: 25px;
   }
   body .wrapper .firstBlock .info .afisha .block {
