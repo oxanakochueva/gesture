@@ -207,12 +207,12 @@ body {
             }
           }
           .imagePromo {
-            background: url("../../items/images/3125.png");
-            background-size: cover;
-            width: 325px;
-            height: 185px;
+            /*             background: url("../../items/images/3125.png");
+background-size: cover;
+width: 325px;
+height: 185px; */
             margin-bottom: 25px;
-            margin: 0 auto;
+            margin-left: 35px;
           }
           .afisha {
             position: relative;
@@ -221,13 +221,7 @@ body {
 
             .block {
               margin-bottom: 25px;
-              .image {
-                background: url("../../items/images/3125.png");
-                background-size: cover;
-                width: 325px;
-                height: 185px;
-                margin-bottom: 25px;
-              }
+
               &.closed {
                 display: none;
               }
@@ -297,6 +291,32 @@ body {
               &.right {
                 width: 87%;
               }
+            }
+            .image {
+              background: url("../../items/images/000013250021.jpg");
+              background-size: cover;
+              width: 325px;
+              height: 185px;
+              margin-bottom: 25px;
+            }
+          }
+
+          .budem {
+            .image {
+              background: url("../../items/images/000013240004.jpg");
+              background-size: cover;
+              width: 325px;
+              height: 185px;
+              margin-bottom: 25px;
+            }
+          }
+          .sud {
+            .image {
+              background: url("../../items/images/000013250027.jpg");
+              background-size: cover;
+              width: 325px;
+              height: 185px;
+              margin-bottom: 25px;
             }
           }
         }

@@ -197,12 +197,12 @@ body .desktop .credits a {
     width: 45%;
   }
   body .wrapper .firstBlock .info .imagePromo {
-    background: url("../../items/images/3125.png");
+    /*             background: url("../../items/images/3125.png");
     background-size: cover;
     width: 325px;
-    height: 185px;
+    height: 185px; */
     margin-bottom: 25px;
-    margin: 0 auto;
+    margin-left: 35px;
   }
   body .wrapper .firstBlock .info .afisha {
     position: relative;
@@ -217,13 +217,6 @@ body .desktop .credits a {
     -webkit-box-shadow: 0px 3px 20px -10px rgba(33, 30, 30, 0.51);
     -moz-box-shadow: 0px 3px 20px -10px rgba(33, 30, 30, 0.51);
     box-shadow: 0px 3px 20px -10px rgba(33, 30, 30, 0.51);
-  }
-  body .wrapper .firstBlock .info .afisha .block .image {
-    background: url("../../items/images/3125.png");
-    background-size: cover;
-    width: 325px;
-    height: 185px;
-    margin-bottom: 25px;
   }
   body .wrapper .firstBlock .info .afisha .block.closed {
     display: none;
@@ -272,6 +265,27 @@ body .desktop .credits a {
   }
   body .wrapper .firstBlock .info .nalevo .headerText.right {
     width: 87%;
+  }
+  body .wrapper .firstBlock .info .nalevo .image {
+    background: url("../../items/images/000013250021.jpg");
+    background-size: cover;
+    width: 325px;
+    height: 185px;
+    margin-bottom: 25px;
+  }
+  body .wrapper .firstBlock .info .budem .image {
+    background: url("../../items/images/000013240004.jpg");
+    background-size: cover;
+    width: 325px;
+    height: 185px;
+    margin-bottom: 25px;
+  }
+  body .wrapper .firstBlock .info .sud .image {
+    background: url("../../items/images/000013250027.jpg");
+    background-size: cover;
+    width: 325px;
+    height: 185px;
+    margin-bottom: 25px;
   }
 }
 
