@@ -76,7 +76,6 @@ body {
   }
 
   body {
-    word-break: break-all;
     .desktop {
       display: none;
     }
@@ -98,6 +97,8 @@ body {
       width: 375px;
       overflow-x: hidden !important;
       display: block;
+      word-break: break-word;
+      hyphens: auto;
 
       .credits {
         font-family: "CoFo_Sans-Regular";
