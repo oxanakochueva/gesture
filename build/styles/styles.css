@@ -63,7 +63,7 @@ body .desktop .sorry {
 body .desktop .qr {
   width: 50px;
   height: 50px;
-  color: grey;
+  background: url("http://qrcoder.ru/code/?http%3A%2F%2Fnoonegesture.show%2F&8&0");
 }
 body .desktop .credits {
   font-family: "CoFo_Sans-Regular";
