@@ -65,6 +65,20 @@ body .desktop .qr {
   height: 50px;
   color: grey;
 }
+body .desktop .credits {
+  font-family: "CoFo_Sans-Regular";
+  font-size: 14px;
+  color: #9d9595;
+  text-decoration: none;
+  margin-top: 60px;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  bottom: -5vh;
+}
+body .desktop .credits a {
+  color: #9d9595;
+}
 
 @media (max-width: 767px) {
   html {
@@ -105,7 +119,7 @@ body .desktop .qr {
     text-align: center;
   }
   body .wrapper .credits a {
-    color: #211e1e;
+    color: #9d9595;
   }
   body .wrapper .firstBlock {
     width: 325px;
