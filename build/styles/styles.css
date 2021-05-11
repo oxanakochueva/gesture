@@ -174,7 +174,7 @@ body .desktop .qr {
     width: 45%;
   }
   body .wrapper .firstBlock .info .imagePromo {
-    background: url("../../items/images/IMG_3125.png");
+    background: url("../../items/images/3125.png");
     background-size: cover;
     width: 325px;
     height: 185px;
@@ -195,7 +195,7 @@ body .desktop .qr {
     box-shadow: 0px 3px 20px -10px rgba(33, 30, 30, 0.51);
   }
   body .wrapper .firstBlock .info .afisha .block .image {
-    background: url("../../items/images/IMG_3125.png");
+    background: url("../../items/images/3125.png");
     background-size: cover;
     width: 325px;
     height: 185px;
