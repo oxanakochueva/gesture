@@ -237,8 +237,6 @@ body .desktop .qr {
     line-height: 133%;
     margin-bottom: 25px;
     text-transform: none;
-    word-break: break-word;
-    hyphens: auto;
   }
   body .wrapper .firstBlock .info .afisha .block .caps p {
     text-transform: uppercase;
