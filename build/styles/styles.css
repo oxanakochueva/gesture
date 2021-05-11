@@ -72,6 +72,7 @@ body .desktop .qr {
   }
 
   body {
+    word-break: break-all;
     color: #211e1e;
     background-color: #c9c8c3;
   }
@@ -187,6 +188,7 @@ body .desktop .qr {
   }
   body .wrapper .firstBlock .info .afisha .block {
     margin-bottom: 25px;
+    width: 350px;
     width: 325px;
     padding: 25px;
     /* height: 100px; */

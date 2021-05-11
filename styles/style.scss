@@ -76,6 +76,7 @@ body {
   }
 
   body {
+    word-break: break-all;
     .desktop {
       display: none;
     }
@@ -197,6 +198,7 @@ body {
 
             .block {
               margin-bottom: 25px;
+              width: 350px;
               .image {
                 background: url("../../items/images/3125.png");
                 background-size: cover;
