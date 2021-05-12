@@ -114,6 +114,7 @@ body .desktop .credits a {
     width: 375px;
     overflow-x: hidden !important;
     display: block;
+    margin: 0 auto;
   }
   body .wrapper .credits {
     font-family: "CoFo_Sans-Regular";
